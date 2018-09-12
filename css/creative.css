@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #6596bf;
+  /* border-color: #6596bf; */
 }
 
 hr.light {
@@ -19,14 +19,12 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
 }
 
 h1,
@@ -38,12 +36,12 @@ h6 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-  background-color: #6596bf !important;
+.bg {
+  background-color: #ffffff !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  /* background-color: #212529 !important; */
 }
 
 .text-faded {
@@ -78,6 +76,10 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+.center-top {
+  margin-top: 1%;
 }
 
 #mainNav {
@@ -281,7 +283,7 @@ header.masthead p {
   }
 }
 
-.text-primary {
+.text {
   color: #F05F40 !important;
 }
 
@@ -297,16 +299,16 @@ header.masthead p {
   padding: 1rem 2rem;
 }
 
-.btn-primary {
+.btn {
   background-color: #6596bf;
-  border-color: #6596bf;
+  color: #fff;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn:hover, .btn:focus, .btn:active {
   color: #fff;
   background-color: #6596bf !important;
 }
 
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+.btn:active, .btn:focus {
+  box-shadow: 0 0 0 0.2rem #000000  !important;
 }
