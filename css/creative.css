@@ -41,6 +41,12 @@ a {
   background-color: #6596bf;
 }
 
+.footer {
+  background-color: #6596bf;
+  color: white;
+  font-size: 7pt;
+}
+
 .keynote {
   color: white;
 }
