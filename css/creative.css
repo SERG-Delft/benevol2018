@@ -27,12 +27,30 @@ a {
   transition: all 0.2s;
 }
 
-h4 {
+.dates {
   background-color: rgba(255, 255, 255, 0.6)
 }
 
 .bg {
   background-color: #ffffff !important;
+  text-align: justify;
+    text-justify: inter-word;
+}
+
+.keynotes {
+  background-color: #6596bf;
+}
+
+.keynote {
+  color: white;
+}
+
+.talktitle {
+  text-decoration: underline;
+}
+
+.headpic {
+  width: 180px;
 }
 
 .text-faded {
